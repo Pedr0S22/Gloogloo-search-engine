@@ -1,6 +1,10 @@
 # Gloogloo – Distributed Search Engine
 
-Gloogloo is a distributed search engine inspired by the architecture and functionalities of Google. Developed as a final project for a Distributed System course, it combines Java RMI for distributed communication and Spring Boot for the frontend. The system is modular, fault-tolerant, and supports dynamic updates, making it both scalable and resilient.
+Gloogloo is an advanced search engine designed to go beyond traditional keyword-based search by leveraging web scraping techniques to extract and index rich data from the internet. The system is engineered for high availability and fault tolerance, ensuring continuous operation even under failure conditions.
+
+At its core, Gloogloo utilizes Java RMI to facilitate seamless communication between distributed servers, enabling scalable and resilient system architecture. The backend uses Spring Boot services, while the frontend employs Thymeleaf in a Model-View-Controller (MVC) architecture, offering a responsive and intuitive user interface.
+
+Key features include dynamic update capabilities, comprehensive server monitoring through real-time statistics, and the ability to input specific URLs for targeted web scraping. This modular architecture allows for easy system expansion and maintenance, making Gloogloo a robust solution for web data retrieval and distributed search services.
 
 ---
 
