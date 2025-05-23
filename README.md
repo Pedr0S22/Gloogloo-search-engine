@@ -6,6 +6,8 @@ At its core, Gloogloo utilizes Java RMI to facilitate seamless communication bet
 
 Key features include dynamic update capabilities, comprehensive server monitoring through real-time statistics, and the ability to input specific URLs for targeted web scraping. This modular architecture allows for easy system expansion and maintenance, making Gloogloo a robust solution for web data retrieval and distributed search services.
 
+This repository contains work originally done in collaboration with [Francisca Mateus](https://github.com/franciscamateusPt05) and [Ramyad Raadi](https://github.com/Ramyad20) in a private repository belonging to Francisca.
+
 ---
 
 ## 📑 Table of Contents
