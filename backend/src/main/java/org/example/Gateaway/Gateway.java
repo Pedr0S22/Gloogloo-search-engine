@@ -782,7 +782,9 @@ public class Gateway extends UnicastRemoteObject implements IGateway {
 
         ArrayList<String> resultString = new ArrayList<>();
         for (SearchResult searchResult : result) {
-            resultString.add(searchResult.toString());
+            // Extract the actual text! Adjust the 'get...' methods to match your class
+            String relevantText = searchResult.getTitle() + " - " + searchResult.getUrls();
+            resultString.add(relevantText);
         }
 
         // Prompt atualizada
