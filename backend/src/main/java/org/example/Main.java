@@ -226,22 +226,19 @@ public class Main extends UnicastRemoteObject implements IStatistics {
     private void openChatBot() {
 
         ArrayList<String> filteredSearch = null;
-        List<String> stopwords = null;
 
-        System.out.println("ChatBot Search:");
+        System.out.println("ChatBot Search...");
         String inputChat = scanner.nextLine().trim().toLowerCase();
 
         try {
-            stopwords = gateway.getStopwords();
+            // stopwords = gateway.getStopwords();
             filteredSearch = new ArrayList<>();
         } catch (Exception e) {
             System.out.println(e);
         }
 
         for (String word : inputChat.split("\\s+")) {
-            if (!stopwords.contains(word)) {
-                filteredSearch.add(word);
-            }
+            filteredSearch.add(word);
         }
 
         try {
