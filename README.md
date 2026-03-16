@@ -38,7 +38,7 @@ The goal of Gloogloo is to simulate the behavior of a distributed search engine 
 
 The following diagram illustrates the system design architecture:
 
-![Architecture] (gloogloo-architecture.png)
+![Architecture](gloogloo-architecture.png)
 
 ### Gateway
 
